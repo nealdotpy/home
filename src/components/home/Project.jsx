@@ -15,10 +15,11 @@ const Project = () => {
   const handleRequest = useCallback((e) => {
     axios
       .get(gitHubLink + gitHubUsername + gitHubQuerry)
+      //.get("https://api.github.com/repos/nealdotpy/pub-trading-bot")
       .then((response) => {
         // handle success
         // console.log(response.data.slice(0, 4));
-        return setProjectsArray(response.data.slice(0, projectsLength));
+        return setProjectsArray(response.data.slice(0, projectsLength)); // ,projectsLength
       })
       .catch((error) => {
         // handle error
