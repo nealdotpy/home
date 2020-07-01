@@ -10,6 +10,10 @@ Dependencies defined in package.json:
 | [GitHub API](https://developer.github.com/v3/repos/)
 | [Instagram API](https://www.instagram.com/developer/embedding/)
 
+## Sharing 
+
+Project is open source, and was based on work by @hashirshoaeb that can be found [here](https://github.com/hashirshoaeb/home).
+
 ## Prerequisites 🍪
 
 You should have [Node.js](https://nodejs.org/en/) and [Git](https://git-scm.com/) installed on your PC. You should also own a GitHub account.
@@ -62,54 +66,5 @@ You should have [Node.js](https://nodejs.org/en/) and [Git](https://git-scm.com/
    ```https
      https://<your-username>.github.io/home
    ```
-
-## Contributors ✨
-
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://www.facebook.com/hashir.shoaeb">
-        <img src="https://avatars2.githubusercontent.com/u/35165481?v=4" width="100px" alt="" />
-        <br />
-        <sub><b>Hashir Shoaib</b></sub>
-      </a>
-      <br />
-    </td>
-    <td align="center">
-      <a href="https://github.com/iprithvitharun">
-        <img src="https://avatars2.githubusercontent.com/u/58725708?v=4" width="100px" alt="" />
-        <br />
-        <sub><b>Prithvi Tharun</b></sub>
-      </a>
-      <br />
-    </td>
-    <td align="center">
-      <a href="https://github.com/CodyJasonBennett">
-        <img src="https://avatars3.githubusercontent.com/u/23324155?s=460&v=4" width="100px" alt="" />
-        <br />
-        <sub><b>Cody Bennett</b></sub>
-      </a>
-      <br />
-    </td>
-    <td align="center">
-      <a href="https://github.com/yonis9">
-        <img src="https://avatars3.githubusercontent.com/u/42126841?s=460" width="100px" alt="" />
-        <br />
-        <sub><b>Yoni Sisso</b></sub>
-      </a>
-      <br />
-    </td>
-    <td align="center">
-      <a href="https://github.com/mallikarjuna-sharma">
-        <img src="https://avatars3.githubusercontent.com/u/40210749?s=460" width="100px" alt="" />
-        <br />
-        <sub><b>Mallikarjuna Sharma</b></sub>
-      </a>
-      <br />
-    </td>
-  </tr>
-</table>
-
-## License 📄
-
+   
 [LGPL-3.0](https://www.gnu.org/licenses/lgpl-3.0.en.html)
