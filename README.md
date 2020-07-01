@@ -1,4 +1,4 @@
-[![Site preview](/public/social-image.png)](https://hashirshoaeb.github.io/)
+![Site preview](/public/social-image.png)
 
 ## Technology Stack 🛠️
 
