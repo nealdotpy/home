@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Pdf from "../../editable-stuff/resume.pdf";
+import Pic from "../../editable-stuff/me2160.png";
 import {
   aboutHeading,
   aboutDescription,
@@ -48,8 +49,8 @@ const AboutMe = () => {
           {showInsta && (
             <div className="col-5 d-none d-lg-block align-self-center">
               <img
-                className="border border-secondary rounded-circle"
-                src={instaProfilePic}
+                className="socialphoto border border-secondary rounded-circle"
+                src={Pic}
                 alt="profilepicture"
               />
             </div>

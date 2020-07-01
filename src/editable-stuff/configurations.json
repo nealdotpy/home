@@ -21,7 +21,7 @@
     }
   ],
   "aboutHeading": "About Me",
-  "showInstaProfilePic": false,
+  "showInstaProfilePic": true,
   "instaLink": "https://www.instagram.com/",
   "instaUsername": "nealpatel",
   "instaQuerry": "/?__a=1",
