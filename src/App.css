@@ -25,6 +25,11 @@
   width: 300px;
 }
 
+.articlepic {
+  height: 408px;
+  widows: 700px;
+}
+
 @-webkit-keyframes AnimationName {
   0% {
     background-position: 0% 7%;

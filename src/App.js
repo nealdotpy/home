@@ -11,6 +11,7 @@ import MainBody from "./components/home/MainBody";
 import AboutMe from "./components/home/AboutMe";
 import Project from "./components/home/Project";
 import Contact from "./components/home/Contact";
+import Media from "./components/home/Media";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import { Blog } from "./components/blog/Blog";
@@ -21,6 +22,7 @@ const Home = () => {
     <Fragment>
       <MainBody />
       <AboutMe />
+      <Media />
       <Project />
       <Contact />
     </Fragment>
@@ -38,3 +40,4 @@ const App = () => (
 );
 
 export default App;
+
