@@ -64,7 +64,8 @@ const ProjectCard = ({ value }) => {
             <i className="fab fa-github" /> Repo
           </a>
           <hr />
-          <Language value={language}></Language>
+          Primarily written in {language}.
+          <p></p>
           <p className="card-text">
             <span className="text-dark card-link mr-4">
               <i className="fab fa-github" /> Stars{" "}
