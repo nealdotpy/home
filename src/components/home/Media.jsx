@@ -26,7 +26,7 @@ class Media extends React.Component {
                     I wanted to learn how to make money to get paid to go to the classes I didn’t like.
                     Like everyone that has seen <i>The Wolf</i>...
                   </Card.Text>
-                  <Button variant="dark">Continue Reading</Button>
+                  <Button href="https://medium.com/@nealdotpy/if-i-cant-make-money-my-python-trading-bot-will-368a592b3c6d" variant="dark">Continue Reading</Button>
                 </Card.Body>
               </Card>
               <Card>
@@ -41,7 +41,8 @@ class Media extends React.Component {
                     While researching, I had an idea to build a camera. I had built a computer many times before, so I 
                     figured why not look into it...
                   </Card.Text>
-                  <Button variant="dark">Continue Reading</Button>
+                  <Button href="https://medium.com/@nealdotpy/i-couldnt-decided-what-camera-to-buy-so-i-made-one-with-a-brain-c3e7a83faa0e" variant="dark">Continue Reading</Button>
+                
                 </Card.Body>
               </Card>
           </CardDeck>
