@@ -14,11 +14,11 @@ const Project = () => {
 
   const handleRequest = useCallback((e) => {
     axios
-      .get(gitHubLink + gitHubUsername + gitHubQuerry)
-      //.get("https://api.github.com/repos/nealdotpy/pub-trading-bot")
+      //.get(gitHubLink + gitHubUsername + gitHubQuerry)
+      .get('https://gh-pinned-repos.now.sh/?username=nealdotpy')
       .then((response) => {
         // handle success
-        // console.log(response.data.slice(0, 4));
+        console.log(response.data.slice(0, 4));
         return setProjectsArray(response.data.slice(0, projectsLength)); // ,projectsLength
       })
       .catch((error) => {

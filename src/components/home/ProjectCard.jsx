@@ -42,35 +42,38 @@ const ProjectCard = ({ value }) => {
     handleUpdatetime();
   }, [handleUpdatetime]);
 
-  const { name, description, svn_url, stargazers_count, languages_url } = value;
+  const { repo, description, stars, language, forks } = value;
   return (
     <div className="col-md-6">
       <div className="card shadow-lg p-3 mb-5 bg-white rounded">
         {/* <img src="" className="card-img-top" alt="..." /> */}
         <div className="card-body">
-          <h5 className="card-title">{name} </h5>
+          <h5 className="card-title">{repo} </h5>
           <p className="card-text">{description} </p>
           <a
-            href={`${svn_url}/archive/master.zip`}
+            href={`${"http://github.com/nealdotpy/" + repo}/archive/master.zip`}
             className="btn btn-outline-secondary mr-3"
           >
             <i className="fab fa-github" /> Clone Project
           </a>
           <a
-            href={svn_url}
+            href={"http://github.com/nealdotpy/" + repo}
             target=" _blank"
             className="btn btn-outline-secondary"
           >
             <i className="fab fa-github" /> Repo
           </a>
           <hr />
-          <Language value={languages_url}></Language>
+          <Language value={language}></Language>
           <p className="card-text">
             <span className="text-dark card-link mr-4">
               <i className="fab fa-github" /> Stars{" "}
-              <span className="badge badge-dark">{stargazers_count}</span>
+              <span className="badge badge-dark">{stars}</span>
             </span>
-            <small className="text-muted">Updated {updated_at}</small>
+            <span className="text-dark card-link mr-4">
+              <i className="fab fa-github" /> Forks{" "}
+              <span className="badge badge-dark">{forks}</span>
+            </span>
           </p>
         </div>
       </div>

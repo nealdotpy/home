@@ -49,7 +49,7 @@ const AboutMe = () => {
           {showInsta && (
             <div className="col-5 d-none d-lg-block align-self-center">
               <img
-                className="socialphoto border border-secondary rounded-circle"
+                className="border border-secondary rounded-circle socialphoto"
                 src={Pic}
                 alt="profilepicture"
               />
