@@ -1,4 +1,4 @@
-![[Site preview](/public/social-image.png)](https://nealdotpy.dev)
+![Site preview](/public/social-image.png)
 
 ## Technology Stack 🛠️
 
