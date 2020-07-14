@@ -30,7 +30,7 @@
   "gitHubLink": "https://api.github.com/users/",
   "gitHubUsername": "nealdotpy",
   "gitHubQuerry": "/repos?sort=full_name&direction=desc",
-  "projectsLength": 4,
+  "projectsLength": 6,
   "showNavigationbar": true,
   "showBlog": false
 }

@@ -18,7 +18,7 @@ const Project = () => {
       .get('https://gh-pinned-repos.now.sh/?username=nealdotpy')
       .then((response) => {
         // handle success
-        console.log(response.data.slice(0, 4));
+        //console.log(response.data.slice(0, 4));
         return setProjectsArray(response.data.slice(0, projectsLength)); // ,projectsLength
       })
       .catch((error) => {
