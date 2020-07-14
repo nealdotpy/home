@@ -5,7 +5,7 @@
   "FirstName": "Neal",
   "MiddleName": "",
   "LastName": "Patel",
-  "devDesc": "| Programmer | Artist | Maker | Hacker ",
+  "devDesc": "Programmer, Artist, Reader, Maker",
   "icons": [
     {
       "id": 0,
@@ -31,6 +31,6 @@
   "gitHubUsername": "nealdotpy",
   "gitHubQuerry": "/repos?sort=full_name&direction=desc",
   "projectsLength": 4,
-  "showNavigationbar": false,
+  "showNavigationbar": true,
   "showBlog": false
 }
